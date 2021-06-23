@@ -9,7 +9,7 @@ const config = {
         url: 'https://docs.google.com/spreadsheets/d/1MiqwGe_7m6B0xFQfaS3GGRO8CmGm5xlXPICDPEeGHyo/gviz/tq?tqx=out:csv&sheet=Sheet1',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
-      });
+      });,
 
   center: [-120.234, 47.398],
   zoom: 6,
