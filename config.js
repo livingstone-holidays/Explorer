@@ -10,7 +10,6 @@ const config = {
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });,
-CSV: csvData,
   center: [-120.234, 47.398],
   zoom: 6,
   title: "Replace with your title",
