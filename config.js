@@ -9,7 +9,7 @@ CSV= $(document).ready(function () {
         url: 'https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkvpSP9LRWV4/gviz/tq?tqx=out:csv&sheet=MapboxData',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
-      });
+      });,
   center: [-120.234, 47.398],
   zoom: 6,
   title: "Replace with your title",
