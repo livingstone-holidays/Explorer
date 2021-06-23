@@ -6,7 +6,7 @@ const config = {
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1MiqwGe_7m6B0xFQfaS3GGRO8CmGm5xlXPICDPEeGHyo/gviz/tq?tqx=out:csv&sheet=Sheet1',
+        url: 'https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkvpSP9LRWV4/gviz/tq?tqx=out:csv&sheet=MapboxData',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });,
