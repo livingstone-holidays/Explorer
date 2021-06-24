@@ -5,9 +5,9 @@ const config = {
 CSV: "https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkvpSP9LRWV4/export?format=csv&id=1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkvpSP9LRWV4&gid=0",
   center: [79.904,31.357,],
   zoom: 6.5,
-  title: "Replace with your title",
+  title: "LivingStone Stays",
   description:
-    "Replace with information about your application. Ex. You can search by address to sort the list below by distance. You can also filter the list by language support options, which days a location is open, and whether they have devices to use to complete the survey by phone or online.",
+    "Explore LivingStone Stays to plan a memorable holiday!",
   sideBarInfo: ["Property_Name", "Region", "Property_Type"],
   popupInfo: ["Property_Name", "Region", "Property_Type"],
   filters: [
