@@ -47,7 +47,7 @@ CSV: "https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkv
       title: "Property Type: ",
       columnHeader: "Property_Type",
       listItems: [
-        "Cottage"
+        "Cottage",
         "Farmhouse",
         "Homestay",
         "Villa",
@@ -55,7 +55,7 @@ CSV: "https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkv
         "Camps",
         "Farmstay",
         "Cottages",
-        "Hotel"
+        "Hotel",
         "Mud Houses",
       ],
     },
