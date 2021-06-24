@@ -3,8 +3,8 @@ const config = {
   accessToken:
     "pk.eyJ1IjoibGl2aW5nc3RvbmVzdGF5cyIsImEiOiJja3EyOGZoNTEwbTJ0MndwODVvdmlsMzNpIn0.1RIytc5O3-uTZHCjysTAuw",
 CSV: "https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkvpSP9LRWV4/export?format=csv&id=1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkvpSP9LRWV4&gid=0",
-  center: [79.904,31.357,],
-  zoom: 6.5,
+  center: [77.779,30.902],
+  zoom: 7,
   title: "LivingStone Stays",
   description:
     "Explore LivingStone Stays to plan a memorable holiday!",
