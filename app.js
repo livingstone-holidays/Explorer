@@ -444,17 +444,17 @@ map.on("load", function () {
         // Add the the layer to the map
         map.addLayer({
           id: "locationData",
-          type: "circle",
+          type: "marker",
           source: {
             type: "geojson",
             data: geojsonData,
           },
           paint: {
-            "circle-radius": 5, // size of circles
-            "circle-color": "#3D2E5D", // color of circles
-            "circle-stroke-color": "white",
-            "circle-stroke-width": 1,
-            "circle-opacity": 0.7,
+            "marker-radius": 5, // size of circles
+            "marker-color": "#3D2E5D", // color of circles
+            "marker-stroke-color": "white",
+            "marker-stroke-width": 1,
+            "marker-opacity": 0.7,
           },
         });
       }
