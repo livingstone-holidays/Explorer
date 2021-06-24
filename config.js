@@ -8,7 +8,7 @@ CSV: "https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkv
   title: "LivingStone Stays",
   description:
     "Explore LivingStone Stays to plan a memorable holiday!",
-  sideBarInfo: ["Property_Name", "Region", "Property_Type", "Google_Listing_Link"],
+  sideBarInfo: ["Property_Name", "Region", "Property_Type", "Activities"],
   popupInfo: ["Property_Name"],
   filters: [
     {
@@ -37,10 +37,16 @@ CSV: "https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkv
       ],
     },
     {
-      type: "Pets",
+      type: "dropdown",
       title: "Pets:",
       columnHeader: "Pets", // Case sensitive - must match spreadsheet entry
-      listItems: ["Computer", "Wi-Fi", "Adaptive Laptops"], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+      listItems: ["Pets"], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+    },
+    {
+      type: "dropdown",
+      title: "Trip Purpose:",
+      columnHeader: "RANGER_Tagging", // Case sensitive - must match spreadsheet entry
+      listItems: ["Relaxing", "Get-Together", "Exploratory", "Adventure", "Romantic"], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
     },
     {
       type: "dropdown",
