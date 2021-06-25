@@ -29,7 +29,7 @@ function createPopup(currentFeature) {
   if (popups[0]) popups[0].remove();
   const popup = new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
-.setHTML("<table><tr><th style='background-color:#F2E74D'>" 
+.setHTML("<table><tr><th style='background-color:#FFF126'>" 
          + currentFeature.properties[config.popupInfo[0]] 
          + "</th></tr><tr><td><h4><b>Region: </b>"
          + currentFeature.properties[config.popupInfo[1]]
