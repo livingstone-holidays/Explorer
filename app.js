@@ -29,7 +29,7 @@ function createPopup(currentFeature) {
   if (popups[0]) popups[0].remove();
   const popup = new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML("<div style='background-color:#FFD700'><h3>" + currentFeature.properties[config.popupInfo[0]] + "<a href='http://livingstonestays.com' target='_blank' style='color:blue'> (i)</a></i></h3></div><div><h4><b>Region: </b>" + currentFeature.properties[config.popupInfo[1]] + "</h4></div><div><b>Property Type: </b>" + currentFeature.properties[config.popupInfo[2]] + "</h4></div>")
+    .setHTML("<div style='background-color:#FFD700'><h3>" + currentFeature.properties[config.popupInfo[0]] + "</h3></div><div><h4><b>Region: </b>" + currentFeature.properties[config.popupInfo[1]] + "</h4></div><div><b>Property Type: </b>" + currentFeature.properties[config.popupInfo[2]] + "</h4></div><div><a href='http://livingstonestays.com' target='_blank' style='color:blue'> More details</a></div>")
     .addTo(map);
 }
 
