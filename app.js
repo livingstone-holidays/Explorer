@@ -29,14 +29,8 @@ function createPopup(currentFeature) {
   if (popups[0]) popups[0].remove();
   const popup = new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
-.setHTML("<table><tr><th style='background-color:#FFF126'>" 
-         + currentFeature.properties[config.popupInfo[0]] 
-         + "</th></tr><tr><td><h4><b>Region: </b>"
-         + currentFeature.properties[config.popupInfo[1]]
-         + "</h4></td></tr><tr><td><h4><b>Property Type: </b>"
-         + currentFeature.properties[config.popupInfo[2]]
-         + "</h4></td></tr></table>")
-  .addTo(map);
+    .setHTML("<div style='background-color:#FFD700'><h3>" + currentFeature.properties[config.popupInfo[0]] + "<a href='http://livingstonestays.com' target='_blank' style='color:blue'> (i)</a></i></h3></div><div><h4><b>Region: </b>" + currentFeature.properties[config.popupInfo[1]] + "</h4></div><div><b>Property Type: </b>" + currentFeature.properties[config.popupInfo[2]] + "</h4></div>")
+    .addTo(map);
 }
 
 function buildLocationList(locationData) {
@@ -457,10 +451,10 @@ map.on("load", function () {
           },
           paint: {
             "circle-radius": 5, // size of circles
-            "circle-color": "#eb2f2f", // color of circles
+            "circle-color": "#DC143C", // color of circles
             "circle-stroke-color": "white",
             "circle-stroke-width": 1,
-            "circle-opacity": 1,
+            "circle-opacity": 0.8,
           },
         });
       }
