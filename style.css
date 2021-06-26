@@ -34,10 +34,6 @@
     border-bottom: none;
 }
 
-.viewport-twothirds-listings {
-    height: 80vh!important;
-}
-
 .listings .item .title {
     display: inline-block;
     width: 100%;
@@ -95,7 +91,8 @@
     display: block;
 
   }
-
 .viewport-twothirds-listings {
     height: 80vh!important;
 }
+
+  
