@@ -9,7 +9,7 @@ CSV: "https://docs.google.com/spreadsheets/d/1n8vdoGi86H6-3dgfL9zI2L_N6n2i9VzJkv
   description:
     "Explore LivingStone Stays to plan a memorable holiday!",
   sideBarInfo: ["Property_Name", "Region", "Property_Type", "Activities"],
-  popupInfo: ["Property_Name","Region", "Property_Type"],
+  popupInfo: ["Property_Name","Region", "Property_Type", "Brochure_Link"],
   filters: [
     {
       type: "dropdown",
